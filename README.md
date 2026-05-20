@@ -9,7 +9,7 @@ Identify differentially expressed genes and dysregulated pathways between PTPN11
 ## Dataset
 - **Source:** GEO accession GSE183252
 - **Samples:** 36 sorted HSPC populations (19 JMML, 17 Normal)
-- **Original study:** Solman et al., *eLife* 2022
+- **Original study:** Solman et al., *eLife* 2022 (https://elifesciences.org/articles/73040)
 
 ## Tools and Packages
 | Purpose | Package |
