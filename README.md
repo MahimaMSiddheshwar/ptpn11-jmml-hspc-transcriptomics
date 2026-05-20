@@ -44,7 +44,7 @@ Identify differentially expressed genes and dysregulated pathways between PTPN11
            2553           12259            2301 
 ```
 
-## Pathway Analyses — Purpose (one line each)
+## Pathway Analyses — Purpose 
 
 - **KEGG Pathway:** Tests if DEGs over-represent known biological pathways and disease modules.
 - **Hallmark GSEA:** Detects coordinated up/downregulation of curated biological processes.
@@ -74,7 +74,7 @@ Identify differentially expressed genes and dysregulated pathways between PTPN11
 2,301 genes up and 2,553 down in JMML; top hits TNF, NFKB1, NFKBIA, CXCL8, PTX3, MARCKSL1, ROR2 confirm strong NF-κB-driven inflammatory program in JMML HSPCs.
 
 **Hallmark GSEA barplot (`Hallmark_barplot.png`)**
-All top pathways upregulated in JMML, led by TNFα/NF-κB, interferon α/γ, and inflammatory response; reproduces Solman et al. Figure 5B confirming inflammation as the dominant JMML signature.
+All top pathways upregulated in JMML, led by TNFα/NF-κB, interferon α/γ, and inflammatory response; (reference Solman et al.)
 
 **KEGG dotplot (`KEGG_dotplot.png`)**
 Top hits include infection pathways (Salmonella, Influenza, EBV, CMV) and metabolic stress reflecting innate immune activation; KEGG groups inflammatory genes under infection categories due to shared TLR/NF-κB gene sets.
@@ -88,7 +88,7 @@ All top terms upregulated and dominated by infectious/inflammatory diseases (bac
 ## Key Findings
 - 4,854 significant DEGs identified between JMML and Normal HSPCs (2,301 up, 2,553 down)
 - TNF, NFKB1, NFKBIA, MARCKSL1, CXCL8, PTX3, ROR2 among top upregulated genes — classic JMML inflammatory markers
-- Dominant pathway signature: TNFα via NF-κB, interferon α/γ response, inflammatory response — matches Solman et al. 2022
+- Dominant pathway signature: TNFα via NF-κB, interferon α/γ response, inflammatory response — ref Solman et al. 2022
 - JMML-defining signaling axes confirmed: JAK-STAT (IL2_STAT5, IL6_JAK_STAT3) and KRAS signaling
 - Disease Ontology confirms JMML HSPCs resemble infection/inflammatory disease states transcriptionally
 - Inflammatory transcriptional program reproducibly detected across DESeq2 (this study) and limma+voom (original paper)
@@ -99,4 +99,4 @@ All top terms upregulated and dominated by infectious/inflammatory diseases (bac
 3. Run the pipeline script top to bottom — all results write to `results/GSE183252_DESeq2/`
 
 ## Reference
-Solman M, *et al.* Inflammatory response in hematopoietic stem and progenitor cells triggered by activating SHP2 mutations evokes blood defects. *eLife* 2022;11:e73040. https://doi.org/10.7554/eLife.73040
+Solman M, *et al.* Inflammatory response in hematopoietic stem and progenitor cells triggered by activating SHP2 mutations evokes blood defects. *eLife* 2022;11:e73040. https://elifesciences.org/articles/73040
