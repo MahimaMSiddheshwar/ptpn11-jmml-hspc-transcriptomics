@@ -1,11 +1,5 @@
 # JMML vs Normal HSPCs — Bulk RNA-seq Analysis
 
-## Project Title
-Inflammatory Gene Expression Signatures in PTPN11-Mutated Juvenile Myelomonocytic Leukemia Hematopoietic Stem and Progenitor Cells
-
-## Objective
-Identify differentially expressed genes and dysregulated pathways between PTPN11-mutated JMML patient HSPCs and healthy donor HSPCs using publicly available RNA-seq data (GEO: GSE183252) using the R programming Language.
-
 ![R](https://img.shields.io/badge/R-276A3C?style=for-the-badge&logo=r&logoColor=white)
 ![Bioconductor](https://img.shields.io/badge/Bioconductor-8DA0CB?style=for-the-badge&logo=bioconductor&logoColor=white)
 ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white)
@@ -13,6 +7,13 @@ Identify differentially expressed genes and dysregulated pathways between PTPN11
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 ---
+
+
+## Project Title
+Inflammatory Gene Expression Signatures in PTPN11-Mutated Juvenile Myelomonocytic Leukemia Hematopoietic Stem and Progenitor Cells
+
+## Objective
+Identify differentially expressed genes and dysregulated pathways between PTPN11-mutated JMML patient HSPCs and healthy donor HSPCs using publicly available RNA-seq data (GEO: GSE183252) using the R programming Language.
 
 ## Dataset
 - **Source:** GEO accession GSE183252
